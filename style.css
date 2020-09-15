@@ -354,3 +354,33 @@ li {
   color: #fff;
   margin: 20px;
 }
+
+/* styling latest news section */
+
+.newscont {
+  width: 90%;
+  margin: auto;
+}
+
+.newsitem {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.latest-news {
+  margin-top: 5vh;
+}
+
+.latest-funding {
+  margin-top: 5vh;
+}
+
+.item img {
+  width: 100%;
+}
+
+.author {
+  font-size: 13px;
+  color: grey;
+}
