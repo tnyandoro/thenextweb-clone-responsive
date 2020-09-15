@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul,
+li {
+  margin: 0;
+}
+
+.tnw-mob {
+  width: 100%;
+}
+
+.flexspbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tn-flex {
+  display: flex;
+}
+
+.font90 {
+  font-size: 90%;
+}
+
+.mainfont {
+  font-family: "Varela Round", sans-serif;
+}
+
+.secondaryfont {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.textstyle-plain {
+  text-decoration: none;
+}
+
+.bk {
+  margin: 0;
+}
