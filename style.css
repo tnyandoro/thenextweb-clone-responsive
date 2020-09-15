@@ -384,3 +384,67 @@ li {
   font-size: 13px;
   color: grey;
 }
+
+/* styling latest funding section */
+
+.styletitle {
+  background-color: #f42;
+  text-align: left;
+  padding: 10px 0 10px 80px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.subheadstyle {
+  background-color: rgba(255, 68, 34, 0.08);
+  text-align: left;
+  padding: 5px 0 5px 80px;
+}
+
+.item2 {
+  margin-bottom: 5%;
+  margin-top: 4%;
+}
+
+.item2 img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.textfoot {
+  padding-top: 20px;
+}
+
+.mr {
+  margin-right: 5px;
+}
+
+.latest {
+  background-color: #fffaf8;
+}
+
+.underline {
+  background-color: #f42;
+  height: 1px;
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
+.bottomtext {
+  font-size: 11px;
+  text-align: left;
+  line-height: 2;
+  color: rgba(36, 36, 36, 0.5);
+}
+
+.subtext {
+  font-size: 80%;
+}
+
+.subheadnormal {
+  margin-top: 3px;
+  font-size: 115%;
+}
