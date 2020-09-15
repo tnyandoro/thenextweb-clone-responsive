@@ -295,7 +295,7 @@ li {
   flex: 1;
 }
 
-.side1 {
+.sidetop {
   background:
     linear-gradient(
       180deg,
@@ -310,7 +310,7 @@ li {
   margin: 2px;
 }
 
-.side2 {
+.sidebottom {
   background:
     linear-gradient(
       180deg,
@@ -326,14 +326,14 @@ li {
 }
 
 .headseccont,
-.sidecont1,
-.sidecont2 {
+.sidecontop,
+.sideconbtm {
   position: absolute;
   bottom: 5px;
 }
 
-.sidecont1,
-.sidecont2 {
+.sidecontop,
+.sideconbtm {
   width: 90%;
   margin: auto;
 }
@@ -355,7 +355,7 @@ li {
   margin: 20px;
 }
 
-/* styling latest news section */
+/* style for the latest news section */
 
 .newscont {
   width: 90%;
