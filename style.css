@@ -175,7 +175,7 @@ li {
   color: white;
 }
 
-.navlogomob-m {
+.navlogo-mob {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
   height: 55px;
@@ -186,7 +186,7 @@ li {
   left: 0;
 }
 
-.navlogomob-m img {
+.navlogo-mob img {
   width: 80%;
 }
 
@@ -277,11 +277,9 @@ li {
 
 .mainpic {
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(140deg,
       #f42 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
-    ),
+      rgba(68, 152, 217, 0.11528361344537819) 100%),
     url("../images/main-pic-big.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -297,11 +295,9 @@ li {
 
 .sidetop {
   background:
-    linear-gradient(
-      180deg,
-      rgba(15, 124, 219, 0.5) 0%,
-      rgba(3, 10, 15, 0.115) 100%
-    ),
+    linear-gradient(180deg,
+        rgba(15, 124, 219, 0.5) 0%,
+        rgba(3, 10, 15, 0.115) 100%),
     url("../images/side-top.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -312,11 +308,9 @@ li {
 
 .sidebottom {
   background:
-    linear-gradient(
-      180deg,
-      rgba(31, 126, 209, 0.5) 0%,
-      rgba(2, 11, 19, 0.115) 100%
-    ),
+    linear-gradient(180deg,
+        rgba(31, 126, 209, 0.5) 0%,
+        rgba(2, 11, 19, 0.115) 100%),
     url("../images/side-pic.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -473,12 +467,10 @@ li {
 
 .sec-4-big-pic-first {
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 1) 100%,
-      rgba(0, 0, 0, 0.2) 101%
-    ),
+      rgba(0, 0, 0, 0.2) 101%),
     url("../images/chimp.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -488,12 +480,10 @@ li {
 
 .sec-4-big-pic-second {
   background:
-    linear-gradient(
-      180deg,
+    linear-gradient(180deg,
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 1) 100%,
-      rgba(0, 0, 0, 0.2) 101%
-    ),
+      rgba(0, 0, 0, 0.2) 101%),
     url("../images/second.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -503,12 +493,10 @@ li {
 
 .sec-4-big-pic-third {
   background:
-    linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 1) 100%,
-      rgba(0, 0, 0, 0.2) 101%
-    ),
+    linear-gradient(180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 1) 100%,
+        rgba(0, 0, 0, 0.2) 101%),
     url("../images/third.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -700,7 +688,7 @@ footer {
   }
 
   /* navlogomobile style */
-  .navlogomob-m {
+  .navlogo-mob {
     background: linear-gradient(to bottom right, #c09, rgb(107, 65, 57) 85%);
     width: 106px;
     height: 60px;
@@ -715,7 +703,7 @@ footer {
     margin-left: 80px;
   }
 
-  .navlogomob-m img,
+  .navlogo-mob img,
   .navlogomob-simg {
     width: 70%;
   }
