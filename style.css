@@ -299,8 +299,8 @@ li {
   background:
     linear-gradient(
       180deg,
-      rgba(27, 112, 186, 0.5) 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
+      rgba(15, 124, 219, 0.5) 0%,
+      rgba(3, 10, 15, 0.115) 100%
     ),
     url("../images/side-top.jpg");
   background-size: cover;
@@ -314,8 +314,8 @@ li {
   background:
     linear-gradient(
       180deg,
-      rgba(27, 112, 186, 0.5) 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
+      rgba(31, 126, 209, 0.5) 0%,
+      rgba(2, 11, 19, 0.115) 100%
     ),
     url("../images/side-pic.png");
   background-size: cover;
@@ -447,4 +447,95 @@ li {
 .subheadnormal {
   margin-top: 3px;
   font-size: 115%;
+}
+
+
+/* styling for the news items */
+
+.section-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  grid-gap: 5px;
+  width: 90%;
+}
+
+/* Grid item styling. The item container is flexed with direction of column */
+
+.section-4-item {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.section-4-item h2 {
+  color: #ef5350;
+  font-size: 120%;
+}
+
+.sec-4-big-pic-first {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(0, 0, 0, 0.2) 101%
+    ),
+    url("../images/apple-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.sec-4-big-pic-second {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(0, 0, 0, 0.2) 101%
+    ),
+    url("../images/second.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.sec-4-big-pic-third {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(0, 0, 0, 0.2) 101%
+    ),
+    url("../images/third.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.hd {
+  font-size: 4em;
+}
+
+.headline-header {
+  padding: 150px 0 0 20px;
+  color: #fff;
+  font-size: 85%;
+}
+
+.pic-headline {
+  color: #fff;
+  font-size: 105%;
+  padding: 0 0 0 20px;
+  margin: 5px 0;
+}
+
+.view-history {
+  color: #fff;
+  padding: 0 0 0 20px;
+  font-size: 75%;
 }
