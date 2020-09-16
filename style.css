@@ -175,7 +175,7 @@ li {
   color: white;
 }
 
-.navlogo-mob {
+.navlogomob-m {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
   height: 55px;
@@ -186,7 +186,7 @@ li {
   left: 0;
 }
 
-.navlogo-mob img {
+.navlogomob-m img {
   width: 80%;
 }
 
@@ -688,7 +688,7 @@ footer {
   }
 
   /* navlogomobile style */
-  .navlogo-mob {
+  .navlogomob-m {
     background: linear-gradient(to bottom right, #c09, rgb(107, 65, 57) 85%);
     width: 106px;
     height: 60px;
@@ -703,7 +703,7 @@ footer {
     margin-left: 80px;
   }
 
-  .navlogo-mob img,
+  .navlogomob-m img,
   .navlogomob-simg {
     width: 70%;
   }
