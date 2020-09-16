@@ -39,7 +39,7 @@ li {
 }
 
 .secondaryfont {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .textstyle-plain {
@@ -51,7 +51,7 @@ li {
 }
 
 .textstyle1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: 200%;
   text-align: justify;
@@ -92,6 +92,7 @@ li {
 /* for webbrowser */
 
 /* top navi dark & light styling */
+
 .topnav {
   background-color: black;
   padding: 10px;
@@ -176,9 +177,7 @@ li {
 }
 
 .navlogomob-m {
-  background-color: #c09;
-
-  /* background: linear-gradient(to bottom right, #c09, #f42 85%); */
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
   height: 55px;
   text-align: center;
@@ -202,6 +201,7 @@ li {
 }
 
 /* navigation fixed styling */
+
 .header {
   position: sticky;
   top: 0;
@@ -341,6 +341,7 @@ li {
 }
 
 /* logo sizing */
+
 .logo-TNW {
   justify-content: space-between;
   align-items: center;
@@ -542,6 +543,7 @@ li {
 }
 
 /* div with flex rows */
+
 .flexed-div {
   display: flex;
   background-color: #fce4ec;
@@ -567,6 +569,7 @@ li {
 }
 
 /* ul elements containing div */
+
 .ul-news-elements {
   padding: 20px 10px;
 }
@@ -684,8 +687,10 @@ footer {
 }
 
 /* responsiveness for medium devices */
+
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   /* top navigation styling */
+
   .navtop {
     background-color: black;
     padding: 10px;
@@ -702,6 +707,7 @@ footer {
   }
 
   /* navlogomobile style */
+
   .navlogomob-m {
     background: linear-gradient(to bottom right, #c09, rgb(107, 65, 57) 85%);
     width: 106px;
@@ -723,6 +729,7 @@ footer {
   }
 
   /* navigation fixed styling */
+
   .header {
     position: sticky;
     top: 0;
@@ -757,6 +764,7 @@ footer {
   }
 
   /* text styling for medium screen */
+
   .textstyle1 {
     color: white;
     font-size: 170%;
@@ -784,6 +792,7 @@ footer {
   }
 
   /* styling latest news section */
+
   .section-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -846,6 +855,7 @@ footer {
 }
 
 /* responsiveness for mobile devices */
+
 @media only screen and (min-width: 450px) and (max-width: 767px) {
   /* navigation small */
 
@@ -862,6 +872,7 @@ footer {
   }
 
   /* navlogomob&s style */
+
   .navlogomob-s {
     width: 85px;
     height: 35px;
@@ -874,6 +885,7 @@ footer {
   }
 
   /* navigation fixed styling */
+
   .header {
     position: sticky;
     top: 0;
@@ -1001,6 +1013,7 @@ footer {
   }
 
   /* Latesnt news */
+
   .section-4 {
     margin: auto;
   }
@@ -1034,6 +1047,7 @@ footer {
 }
 
 /* styling responsiveness for m d */
+
 @media only screen and (max-width: 449px) {
   /* navigation small */
 
@@ -1050,6 +1064,7 @@ footer {
   }
 
   /* navlogomob&s style */
+
   .navlogomob-s {
     width: 85px;
     height: 35px;
@@ -1062,6 +1077,7 @@ footer {
   }
 
   /* navigation fixed styling */
+
   .header {
     position: sticky;
     top: 0;
@@ -1196,6 +1212,7 @@ footer {
   }
 
   /* Late news */
+
   .section-4 {
     margin: auto;
   }
