@@ -176,7 +176,8 @@ li {
 }
 
 .navlogomob-m {
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
+   background-color: #c09;
+  /* background: linear-gradient(to bottom right, #c09, #f42 85%); */
   width: 106px;
   height: 55px;
   text-align: center;
@@ -461,7 +462,7 @@ li {
 }
 
 .section-4-item h2 {
-  color: #ef5350;
+  color: #f42;
   font-size: 120%;
 }
 
