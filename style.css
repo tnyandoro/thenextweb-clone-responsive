@@ -911,7 +911,7 @@ footer {
   .hamburger,
   #bar {
     display: block;
-    color: orangered;
+    color: #f42;
     margin-left: 10px;
     font-size: 120%;
   }
