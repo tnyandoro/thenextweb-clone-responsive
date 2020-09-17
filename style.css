@@ -1,3 +1,5 @@
+/* General reset and classes */
+
 body {
   margin: 0;
   padding: 0;
@@ -39,7 +41,7 @@ li {
 }
 
 .secondaryfont {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Russo One", sans-serif;
 }
 
 .textstyle-plain {
@@ -51,7 +53,7 @@ li {
 }
 
 .textstyle1 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Russo One", sans-serif;
   color: white;
   font-size: 200%;
   text-align: justify;
@@ -66,14 +68,14 @@ li {
 }
 
 .textstyle3 {
-  font-family: "Assistant", sans-serif;
+  font-family: "Russo One", sans-serif;
   color: white;
   font-size: 120%;
   text-align: justify;
   margin: 0;
 }
 
-.font-bold {
+.strong-font {
   font-weight: bold;
 }
 
@@ -85,14 +87,9 @@ li {
   display: grid;
 }
 
-.latest-deals {
-  margin: 0 5% 0 5%;
-}
+/* styling for large screen */
 
-/* for webbrowser */
-
-/* top navi dark & light styling */
-
+/* top navigation styling */
 .topnav {
   background-color: black;
   padding: 10px;
@@ -141,7 +138,7 @@ li {
   margin-right: auto;
 }
 
-.titleside {
+.title-side {
   margin: 0 6px;
 }
 
@@ -164,7 +161,7 @@ li {
   font-size: 15px;
 }
 
-.dealtitlediv p a {
+.titledeals p a {
   color: #f42;
 }
 
@@ -176,6 +173,7 @@ li {
   color: white;
 }
 
+/* navlogom&s style */
 .navlogomob-m {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
@@ -191,7 +189,7 @@ li {
   width: 80%;
 }
 
-.navlogomob-s {
+.navlogom-s {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 85px;
   height: 25px;
@@ -201,7 +199,6 @@ li {
 }
 
 /* navigation fixed styling */
-
 .header {
   position: sticky;
   top: 0;
@@ -215,12 +212,12 @@ li {
   background-color: white;
 }
 
-.event-logo {
-  width: 124px;
-  height: 53px;
+.rightnavlogo {
+  width: 125px;
+  height: 54px;
 }
 
-.sideinfo {
+.rightnav {
   margin-right: 25px;
 }
 
@@ -260,8 +257,8 @@ li {
 
 /* yellow nav styling */
 
-.yellow-navbar {
-  background-color: #fd3;
+.yellow-nav {
+  background-color: #ffe712;
   height: 20px;
   padding: 5px;
 }
@@ -280,7 +277,7 @@ li {
 .mainpic {
   background:
     linear-gradient(
-      140deg,
+      180deg,
       #f42 0%,
       rgba(68, 152, 217, 0.11528361344537819) 100%
     ),
@@ -301,8 +298,8 @@ li {
   background:
     linear-gradient(
       180deg,
-      rgba(15, 124, 219, 0.5) 0%,
-      rgba(3, 10, 15, 0.115) 100%
+      rgba(27, 112, 186, 0.5) 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
     ),
     url("../images/side-top.jpg");
   background-size: cover;
@@ -316,8 +313,8 @@ li {
   background:
     linear-gradient(
       180deg,
-      rgba(31, 126, 209, 0.5) 0%,
-      rgba(2, 11, 19, 0.115) 100%
+      rgba(27, 112, 186, 0.5) 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
     ),
     url("../images/side-pic.png");
   background-size: cover;
@@ -328,20 +325,19 @@ li {
 }
 
 .headseccont,
-.sidecontop,
-.sideconbtm {
+.sidecontbm,
+.sidecontop {
   position: absolute;
   bottom: 5px;
 }
 
-.sidecontop,
-.sideconbtm {
+.sidecontbm,
+.sidecontop {
   width: 90%;
   margin: auto;
 }
 
 /* logo sizing */
-
 .logo-TNW {
   justify-content: space-between;
   align-items: center;
@@ -358,7 +354,7 @@ li {
   margin: 20px;
 }
 
-/* style for the latest news section */
+/* styling latest news section */
 
 .newscont {
   width: 90%;
@@ -452,7 +448,7 @@ li {
   font-size: 115%;
 }
 
-/* styling for the news items */
+/* this is the styling for the section for news items */
 
 .section-4 {
   display: grid;
@@ -470,7 +466,7 @@ li {
 }
 
 .section-4-item h2 {
-  color: #f42;
+  color: #ef5350;
   font-size: 120%;
 }
 
@@ -482,7 +478,7 @@ li {
       rgba(0, 0, 0, 1) 100%,
       rgba(0, 0, 0, 0.2) 101%
     ),
-    url("../images/chimp.jpg");
+    url("../images/apple-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -519,10 +515,6 @@ li {
   height: 100%;
 }
 
-.hd {
-  font-size: 4em;
-}
-
 .headline-header {
   padding: 150px 0 0 20px;
   color: #fff;
@@ -531,7 +523,7 @@ li {
 
 .pic-headline {
   color: #fff;
-  font-size: 1em;
+  font-size: 105%;
   padding: 0 0 0 20px;
   margin: 5px 0;
 }
@@ -543,7 +535,6 @@ li {
 }
 
 /* div with flex rows */
-
 .flexed-div {
   display: flex;
   background-color: #fce4ec;
@@ -564,12 +555,12 @@ li {
 }
 
 .small-pic {
+  background-image: url("../images/bit.jpg");
   width: 130px;
   height: 96px;
 }
 
 /* ul elements containing div */
-
 .ul-news-elements {
   padding: 20px 10px;
 }
@@ -579,6 +570,7 @@ li {
   padding-bottom: 10px;
   padding-left: 5px;
   padding-top: 5px;
+  border-bottom: 1px solid gray;
   font-family: "Varela Round", sans-serif;
   font-size: 12px;
   color: grey;
@@ -592,7 +584,7 @@ li {
   color: grey;
 }
 
-/* latest deal section style */
+/* styling latest deal section */
 
 .dealhead,
 .dealprice {
@@ -608,28 +600,28 @@ li {
   margin-bottom: 20px;
 }
 
-.dealtitlediv {
+.titledeals {
   justify-content: space-between;
   align-items: center;
 }
 
-.dealscont {
+.imgcont {
   overflow: hidden;
 }
 
-.story-title {
+.ptag {
   position: absolute;
   top: -20px;
   right: -110px;
   transform: rotate(45deg);
-  background-color: #ff2;
+  background-color: #ffe712;
   height: 25px;
   width: 250px;
   padding-top: 50px;
   text-align: center;
 }
 
-/* footer */
+/* styling for footer section */
 
 footer {
   background-color: #1a1a1a;
@@ -637,7 +629,7 @@ footer {
   text-align: center;
 }
 
-.footer-links-social {
+.socialicons {
   text-align: center;
   margin: 0 auto;
 }
@@ -687,11 +679,9 @@ footer {
 }
 
 /* responsiveness for medium devices */
-
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   /* top navigation styling */
-
-  .navtop {
+  .topnav {
     background-color: black;
     padding: 10px;
     font-size: 78%;
@@ -706,10 +696,9 @@ footer {
     margin-right: 5px;
   }
 
-  /* navlogomobile style */
-
+  /* navlogom&s style */
   .navlogomob-m {
-    background: linear-gradient(to bottom right, #c09, rgb(107, 65, 57) 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     width: 106px;
     height: 60px;
     text-align: center;
@@ -724,12 +713,11 @@ footer {
   }
 
   .navlogomob-m img,
-  .navlogomob-simg {
+  .navlogom-s img {
     width: 70%;
   }
 
   /* navigation fixed styling */
-
   .header {
     position: sticky;
     top: 0;
@@ -764,7 +752,6 @@ footer {
   }
 
   /* text styling for medium screen */
-
   .textstyle1 {
     color: white;
     font-size: 170%;
@@ -792,7 +779,6 @@ footer {
   }
 
   /* styling latest news section */
-
   .section-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -855,11 +841,10 @@ footer {
 }
 
 /* responsiveness for mobile devices */
-
 @media only screen and (min-width: 450px) and (max-width: 767px) {
   /* navigation small */
 
-  .navtop,
+  .topnav,
   .navli2,
   .hiddenmd,
   .logo-TNW img,
@@ -871,21 +856,19 @@ footer {
     display: block;
   }
 
-  /* navlogomob&s style */
-
-  .navlogomob-s {
+  /* navlogom&s style */
+  .navlogom-s {
     width: 85px;
     height: 35px;
     padding-top: 15px;
     padding-left: 20px;
   }
 
-  .navlogomob-simg {
+  .navlogom-s img {
     width: 70%;
   }
 
   /* navigation fixed styling */
-
   .header {
     position: sticky;
     top: 0;
@@ -911,7 +894,7 @@ footer {
   .hamburger,
   #bar {
     display: block;
-    color: #f42;
+    color: orangered;
     margin-left: 10px;
     font-size: 120%;
   }
@@ -927,8 +910,8 @@ footer {
   }
 
   .mainpic,
-  .side1,
-  .side2 {
+  .sidetop,
+  .sidebottom {
     height: 25vh;
   }
 
@@ -959,25 +942,29 @@ footer {
     margin: auto;
   }
 
-  .itemsmall {
+  .latestrow {
     display: flex;
     margin-bottom: 15px;
   }
 
-  .itemsmall img {
+  .latestrow img {
     width: 80px;
     height: 100px;
   }
 
-  .itemsmall h4,
+  .latestrow h4,
   .ditem {
     display: flex;
   }
 
-  .dealscont img {
+  .imgcont img {
     width: 100px;
     height: 70px;
     margin-right: 20px;
+  }
+
+  .titleside {
+    margin-bottom: 10px;
   }
 
   .a-side {
@@ -989,14 +976,14 @@ footer {
     font-size: 100%;
   }
 
-  .textcontsmall h4 a {
+  .lateststory h4 a {
     font-size: 85%;
     margin-left: 10px;
     margin-bottom: 0;
     margin-top: 0;
   }
 
-  .textcontsmall p {
+  .lateststory p {
     font-size: 80%;
     margin-left: 10px;
     margin-top: 0;
@@ -1008,12 +995,11 @@ footer {
     margin-left: 10px;
   }
 
-  .story-title {
+  .ptag {
     display: none;
   }
 
   /* Latesnt news */
-
   .section-4 {
     margin: auto;
   }
@@ -1046,12 +1032,11 @@ footer {
   }
 }
 
-/* styling responsiveness for m d */
-
+/* responsiveness for mobile devices */
 @media only screen and (max-width: 449px) {
   /* navigation small */
 
-  .navtop,
+  .topnav,
   .navli2,
   .hiddenmd,
   .logo-TNW img,
@@ -1063,21 +1048,19 @@ footer {
     display: block;
   }
 
-  /* navlogomob&s styles */
-
-  .navlogomob-s {
+  /* navlogom&s style */
+  .navlogom-s {
     width: 85px;
     height: 35px;
     padding-top: 15px;
     padding-left: 20px;
   }
 
-  .navlogomob-simg {
+  .navlogom-s img {
     width: 70%;
   }
 
-  /* navigation fixed styles */
-
+  /* navigation fixed styling */
   .header {
     position: sticky;
     top: 0;
@@ -1103,7 +1086,7 @@ footer {
   .hamburger,
   #bar {
     display: block;
-    color: #f42;
+    color: orangered;
     margin-left: 10px;
     font-size: 120%;
   }
@@ -1111,7 +1094,7 @@ footer {
   /* yellow nav styling */
 
   .yellow-nav {
-    background-color: #fd3;
+    background-color: #ffe712;
     height: 30px;
     padding-top: 10px;
     text-align: center;
@@ -1119,8 +1102,8 @@ footer {
   }
 
   .mainpic,
-  .side1,
-  .side2 {
+  .sidetop,
+  .sidebottom {
     height: 25vh;
   }
 
@@ -1144,30 +1127,30 @@ footer {
 
   /* logo sizing */
 
-  /* Late news */
+  /* Latesnt news */
 
   .newscont {
     width: 90%;
     margin: auto;
   }
 
-  .itemsmall {
+  .latestrow {
     margin-bottom: 15px;
     display: flex;
   }
 
-  .itemsmall img {
+  .latestrow img {
     width: 70px;
     height: 100px;
   }
 
-  .dealscont img {
+  .imgcont img {
     width: 100px;
     height: 70px;
     margin-right: 20px;
   }
 
-  .index-co {
+  .titleside {
     margin-bottom: 10px;
   }
 
@@ -1176,11 +1159,11 @@ footer {
     font-weight: 100;
   }
 
-  .textcontsmall {
+  .lateststory {
     margin-left: 10px;
   }
 
-  .textcontsmall h4 a {
+  .lateststory h4 a {
     font-size: 80%;
     margin-left: 10px;
     margin-bottom: 0;
@@ -1188,7 +1171,7 @@ footer {
     text-align: justify;
   }
 
-  .textcontsmall p {
+  .lateststory p {
     font-size: 70%;
     margin-left: 10px;
     margin-top: 0;
@@ -1207,12 +1190,11 @@ footer {
     margin-left: 10px;
   }
 
-  .story-title {
+  .ptag {
     display: none;
   }
 
-  /* Late news */
-
+  /* Latesnt news */
   .section-4 {
     margin: auto;
   }
