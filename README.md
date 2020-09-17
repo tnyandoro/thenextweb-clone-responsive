@@ -11,7 +11,8 @@
 
 ## Screenshots of our clone website
 
-![image](https://user-images.githubusercontent.com/30318155/93187559-3527f480-f740-11ea-9e39-843853b26fbc.png)
+(![image](https://user-images.githubusercontent.com/30318155/93453103-891a1100-f8d9-11ea-93b9-dd599e7a9c58.png)
+
 
 
 
