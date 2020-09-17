@@ -609,7 +609,7 @@ li {
   overflow: hidden;
 }
 
-.ptag {
+.discount {
   position: absolute;
   top: -20px;
   right: -110px;
@@ -995,7 +995,7 @@ footer {
     margin-left: 10px;
   }
 
-  .ptag {
+  .discount {
     display: none;
   }
 
@@ -1190,7 +1190,7 @@ footer {
     margin-left: 10px;
   }
 
-  .ptag {
+  .discount {
     display: none;
   }
 
