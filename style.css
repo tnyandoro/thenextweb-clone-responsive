@@ -189,7 +189,7 @@ li {
   width: 80%;
 }
 
-.navlogom-s {
+.navlogomob-s {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 85px;
   height: 25px;
@@ -713,7 +713,7 @@ footer {
   }
 
   .navlogomob-m img,
-  .navlogom-s img {
+  .navlogomob-s img {
     width: 70%;
   }
 
@@ -857,14 +857,14 @@ footer {
   }
 
   /* navlogom&s style */
-  .navlogom-s {
+  .navlogomob-s {
     width: 85px;
     height: 35px;
     padding-top: 15px;
     padding-left: 20px;
   }
 
-  .navlogom-s img {
+  .navlogomob-s img {
     width: 70%;
   }
 
@@ -1049,14 +1049,14 @@ footer {
   }
 
   /* navlogom&s style */
-  .navlogom-s {
+  .navlogomob-s {
     width: 85px;
     height: 35px;
     padding-top: 15px;
     padding-left: 20px;
   }
 
-  .navlogom-s img {
+  .navlogomob-s img {
     width: 70%;
   }
 
