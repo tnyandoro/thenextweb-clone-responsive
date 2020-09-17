@@ -15,7 +15,7 @@
 
 
 
-The project is built using Html and Css with an extensive use of the flex and gird, float css properties. the aim of this exercise is to create a responsive website that will will respond to user's context, whether that is the device they are viewing on, the size of browser, or their accessibility needs.
+The project is built using Html and Css with an extensive use of the flex and gird, float css properties. the aim of this exercise is to create a responsive website that will will respond to users context, whether that is the device they are viewing on, the size of browser, or their accessibility needs.
 
 ## Built With
 
