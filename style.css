@@ -534,7 +534,7 @@ li {
   font-size: 75%;
 }
 
-/* div with flex rows */
+/* flex div with rows */
 .flexed-div {
   display: flex;
   background-color: #fce4ec;
