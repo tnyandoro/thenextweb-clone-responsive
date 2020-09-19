@@ -1,30 +1,33 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# Responsive design:  The NextWeb clone
 
-> This is a New York Times article page clone using HTML and CSS3.
+> This is The NextWeb page clone done using HTML and CSS3.
 
 ## Screenshots of original website
 
-![screenshot](./app-screenshot-original-full.png)
+![screenshot](https://user-images.githubusercontent.com/30318155/93186907-710e8a00-f73f-11ea-8410-a1ca73335c4b.png)
 
 ## Screenshots of our clone website
 
-![screenshot](./app-screenshot-clone-full.png)
+(![image](https://user-images.githubusercontent.com/30318155/93453103-891a1100-f8d9-11ea-93b9-dd599e7a9c58.png)
 
 
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+
+
+The project is built using Html and Css with an extensive use of the flex and gird, float css properties. the aim of this exercise is to create a responsive website that will will respond to users context, whether that is the device they are viewing on, the size of browser, or their accessibility needs.
 
 ## Built With
 
 - HTML
 - CSS3
 - Font awesome icons
+- Media Query
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo Link](https://zen-feynman-250612.netlify.app/)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -35,7 +38,7 @@ Clone the project locally.
 ### Linters
 
 1. run `npm install`.
-2. run `npm run test` to check the Html and Css files.
+2. run `npm run test` to check the HTML and CSS files.
 
 ### Deployment
 
@@ -43,16 +46,14 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 ## Authors
 
-👤 **Cristian Viorel Ceamatu**
+👤 **Tendai Nyandoro**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@githubhandle](https://github.com/tnyandoro)
+- Twitter: [@twitterhandle](https://twitter.com/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## 📝 License
-
-This project is [MIT](lic.url) licensed.

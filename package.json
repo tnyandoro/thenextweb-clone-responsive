@@ -1,29 +1,24 @@
 {
-  "name": "linters-testing",
+  "name": "tnw",
   "version": "1.0.0",
-  "description": "",
+  "description": "A clone of the nextweb website",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.7.1",
+    "stylelint-config-recommended": "^3.0.0"
+  },
   "scripts": {
-    "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
-    "webhint": "hint .",
-    "stylelint": "stylelint **/*.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cristianCeamatu/linters-testing.git"
+    "url": "git+https://github.com/tnyandoro/thenextweb-clone-responsive.git"
   },
-  "keywords": [],
-  "author": "CristianCeamatu",
-  "license": "ISC",
+  "author": "Tendai Nyandoro",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cristianCeamatu/linters-testing/issues"
+    "url": "https://github.com/tnyandoro/thenextweb-clone-responsive/issues"
   },
-  "homepage": "https://github.com/cristianCeamatu/linters-testing#readme",
-  "devDependencies": {
-    "hint": "^6.0.6",
-    "stylelint": "^13.3.3",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-csstree-validator": "^1.8.0",
-    "stylelint-scss": "^3.17.2"
-  }
+  "homepage": "https://github.com/tnyandoro/thenextweb-clone-responsive#readme"
 }
